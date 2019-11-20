@@ -1,58 +1,58 @@
-### java_api-project
+## java_api-project
 
 API desenvolvida com Java
 
-#### Endpoints
+### Endpoints
 
-###### /oauth/token
+#### /oauth/token
 <ul>
 	<li>POST</li>
 </ul>
 
-###### /tokens/revoke
+#### /tokens/revoke
 
 <ul>
 	<li>DELETE</li>
 </ul>
 
-###### /categorias
+#### /categorias
 <ul>
 	<li>GET</li>
 	<li>POST</li>
 </ul>
 
-###### /categorias/{codigo}/
+#### /categorias/{codigo}/
 <ul>
 	<li>GET</li>
 </ul>
 
-###### /lancamentos
-<ul>
-	<li>GET</li>
-	<li>POST</li>
-</ul>
-
-###### /lancamentos/{codigo}/
-<ul>
-	<li>GET</li>
-	<li>DELETE</li>
-	<li>PUT</li>
-</ul>
-
-###### /pessoas
+#### /lancamentos
 <ul>
 	<li>GET</li>
 	<li>POST</li>
 </ul>
 
-###### /pessoas/{codigo}/
+#### /lancamentos/{codigo}/
 <ul>
 	<li>GET</li>
 	<li>DELETE</li>
 	<li>PUT</li>
 </ul>
 
-###### /pessoas/{codigo}/ativo/
+#### /pessoas
+<ul>
+	<li>GET</li>
+	<li>POST</li>
+</ul>
+
+#### /pessoas/{codigo}/
+<ul>
+	<li>GET</li>
+	<li>DELETE</li>
+	<li>PUT</li>
+</ul>
+
+#### /pessoas/{codigo}/ativo/
 <ul>
 	<li>PUT</li>
 </ul>
